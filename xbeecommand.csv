@@ -1,0 +1,75 @@
+Category,ATCommand,Description,Type,Minimum Value,Maximum Value
+Special,FR,Software Reset,No parameter,,
+Special,AC,Apply Changes,No parameter,,
+Special,WR,Write,No parameter,,
+Special,RE,Restore Defaults,No parameter,,
+Special,VL,Version Long,No parameter,,
+Node Identification,ND,Node Discover,No parameter,,
+Networking,ID,Personal Area Network ID,Number,0,FFFF
+Networking,CH,Operating channel number,Number,0B,1A
+Networking,RR,Mac retries,Number,0,F
+Networking,MT,Multi-transmit,Number,0,F
+Networking,BH,Broadcast Radius,Number,0,20
+Networking,MR,Mesh Retries,Number,0,7
+Networking,NH,Network hops,Number,0,20
+Networking,NN,Network delay slots,Number,0,A
+Networking,CE,Coordinator enable,Number,0,2
+Addressing,SH,Serial Number High,Number/Read only,,
+Addressing,SL,Serial Number Low,Number/Read only,,
+Addressing,DH,Destination Address High,Number,0,FFFFFFFF
+Addressing,DL,Destination Address Low,Number,0,FFFFFFFF
+Addressing,NI,Node Identifier,String,,
+Addressing,NT,Node Discovery Backoff,Number,20,2EE0
+Addressing,NO,Node Discovery Options,Number,0,3
+Addressing,DD,Device type Identifier,Number,0,FFFFFFFF
+Security,EE,Encryption Enable,Number,0,1
+Security,KY,AES Encryption Key,String/Write only,,
+Serial Interfacing,BD,Baudrate,Number,0,8
+Serial Interfacing,NB,Parity,Number,0,4
+Serial Interfacing,RO,Packetiztion Timeout,Number,0,FF
+Serial Interfacing,FT,Flow Control Threshold,Number,11,EE
+Serial Interfacing,AP,API Enable,Number,0,2
+Serial Interfacing,AO,API Option,Number,0,1
+AT Command Options,CT,AT Command Mode Timeout,Number,2,1770
+AT Command Options,GT,Guard Times,Number,2,CE4
+AT Command Options,CC,Command Sequence Character,Number,0,FF
+Diagnostic Commands,DB,Last Packet RSSI,Number/Read only,,
+Diagnostic Commands,VR,Firmware Version,Number/Read only,,
+Diagnostic Commands,HV,Hardware Version,Number/Read only,,
+Diagnostic Commands,ER,Receive Error Count,Number/Read only,,
+Diagnostic Commands,GD,Receive Good Count,Number/Read only,,
+Diagnostic Commands,TR,Delivery Failure Count,Number/Read only,,
+Diagnostic Commands,SQ,Missed Sleep Synch Count,Number/Read only,,
+Diagnostic Commands,CK,Configuration Code,Number/Read only,,
+Diagnostic Commands,NP,Maximum Number of RF Payload Bytes,Number/Read only,,
+RF Interfacing,PL,Power Level,Number,0,4
+Sleep Commands,WH,Wake Host Delay,Number,0,FFFF
+Sleep Commands,SO,Sleep Options,Number,0,31
+Sleep Commands,SM,Sleep Mode,Number,0,8
+Sleep Commands,SS,Sleep Status,Number/Read only,,
+Sleep Commands,OS,Operating Sleep Time,Number/Read only,,
+Sleep Commands,OW,Operating Wake Time,Number/Read only,,
+Sleep Commands,MS,Missed Synch Message,Number/Read only,,
+Sleep Commands,SP,Sleep Time,Number,1,15f900
+Sleep Commands,ST,Wake Time,Number,1b,36ee80
+I/O Setting,D0,DIO0 Configuration,Number,0,5
+I/O Setting,D1,DIO1 Configuration,Number,0,5
+I/O Setting,D2,DIO2 Configuration,Number,0,5
+I/O Setting,D3,DIO3 Configuration,Number,0,5
+I/O Setting,D4,DIO4 Configuration,Number,0,5
+I/O Setting,D5,DIO5 Configuration,Number,0,5
+I/O Setting,D6,DIO6 Configuration,Number,0,5
+I/O Setting,D7,DIO7 Configuration,Number,0,7
+I/O Setting,D8,DIO8 Configuration,Number,0,5
+I/O Setting,D9,DIO9 Configuration,Number,0,5
+I/O Setting,P0,DIO10 Configuration,Number,0,5
+I/O Setting,P1,DIO11 Configuration,Number,0,5
+I/O Setting,P2,DIO12 Configuration,Number,0,5
+I/O Setting,M0,PWM0 duty Cycle,Number,0,3FF
+I/O Setting,M1,PWM1 duty Cycle,Number,0,3FF
+I/O Setting,LT,Associate LED Blink Time,Number,14,FF
+I/O Setting,RP,RSSI PWM Timer,Number,0,FF
+I/O Setting,PR,Pull-up Resistor Enable,Number,0,1FFF
+I/O Sampling,IC,DIO Change Detect,Number,0,FFFF
+I/O Sampling,IR,Sample Rate,Number,0,FFFF
+I/O Sampling,IF,Sample From,Number,1,FF

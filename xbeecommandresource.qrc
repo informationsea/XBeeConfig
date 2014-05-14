@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/command" lang="English" >
+        <file>xbeecommand.csv</file>
+    </qresource>
+</RCC>

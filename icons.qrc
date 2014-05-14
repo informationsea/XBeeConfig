@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/" >
+        <file>xbee.png</file>
+    </qresource>
+    <qresource prefix="/icons" >
+        <file>icons/commandprompt.png</file>
+        <file>icons/connect_established.png</file>
+        <file>icons/connect_no.png</file>
+        <file>icons/document_properties.png</file>
+        <file>icons/window_fullscreen.png</file>
+        <file>icons/clear_left.png</file>
+        <file>icons/application_exit.png</file>
+        <file>icons/messagebox_info.png</file>
+        <file>icons/konqueror.png</file>
+    </qresource>
+</RCC>
